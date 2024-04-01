@@ -30,19 +30,7 @@ You can specify this via one of the following:
 
 ```
 class ApplicationComponent < ViewComponent::Base
-  abstract :no_template
-end
-```
-
-```
-class ApplicationComponent < ViewComponent::Base
   abstract :missing_template
-end
-```
-
-```
-class ApplicationComponent < ViewComponent::Base
-  abstract_templateless
 end
 ```
 
